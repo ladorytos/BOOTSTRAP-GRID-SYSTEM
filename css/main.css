@@ -1,0 +1,210 @@
+body{
+	background-color: #82E0AA;
+}
+.top{
+	padding-top: 20px;
+}
+img {
+    margin: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: 5px solid #eee;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));
+}
+img:hover {
+    opacity: 1;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
+    -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+    -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+}
+p{
+	padding: 15px;
+	font-size: 16px;
+}
+/*HEADER*/
+.logo{
+	margin-left: 30px;
+}
+.glyphicon{
+	font-size: 20px;
+	margin-left: 15px;
+	margin-bottom: 15px;	
+}
+.beneficios{
+	margin-top: 20px;
+}
+.cactus2{
+ 	margin-right: 40px;
+}
+/*SUB-HEADER*/
+.sub-header{
+	font-size: 16px;
+}
+/*HUERTA*/
+.huerta{
+	color:black;
+	font-size: 20px;
+	padding: 5px;
+	margin: 2px;
+   width: 190px;
+   height: 40px;
+   background: #D7DBDD  ;
+   border: 2px solid #99A3A4;
+   transition: all 0.1s ease;
+}
+.huerta:hover{
+    width: 100%;
+    transition: all 1s ease;
+    }
+h3{
+	font-style: italic;
+	padding: 10px;
+}
+img:hover{
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1.2)
+}
+/*WATCH*/
+.watch{
+	padding: 5px;
+}
+.watch:hover{
+	background-color: #04B45F;
+	border: 2px solid #99A3A4;
+}
+/*imagenes MEDIA*/
+.media-object{
+	margin: 10px;
+   width: 200px;
+   height: 200px;
+   background: #f00;
+   border: 1px solid #666;
+   transition: all 1s ease;
+}
+.media-object:hover{
+    width: 400px;
+    transition: all 0.5s ease;
+}
+/*div HUERTA2*/
+.huerta2 {
+	color:red;
+	font-size: 22px;
+	padding: 10px;
+	margin: 2px;
+	margin-left: 15px;
+   width: 190px;
+   height: 50px;
+   background: #D7DBDD  ;
+   border: 2px solid yellow;
+   text-align: center;
+   transition: all 2s ease-in-out;
+}
+.huerta2:hover, .huerta2.hover_effect {
+      transform: rotate(720deg) scale(2);
+ }
+/*CONTACTANOS*/
+.input1{
+	width: 200px;
+	margin: 5px;
+}
+.input2{
+	width: 200px;
+	height: 150px;
+	margin: 5px;
+}
+.btn{
+	margin-left: 10px;
+}
+/*POEMA*/
+.pre-foot{
+	background-image: url(../img/descarga.jpg);
+	background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.cactus {
+  color: white;
+  font-size: 18px;
+  padding: 50px ;
+  font-style: italic;
+  text-align: center;
+}
+/*FOOTER*/
+.footer{
+  padding: 20px;
+}
+.texto1{
+  margin-left: 25px;
+  } 
+.texto1:hover{
+  background-color:#53a7ea;
+  width: 60%;
+}
+.direcc{
+  padding: 20px 50px;
+}
+.ion {
+  font-size: 30px;
+  padding: 10px;
+  color: blue;
+}
+
+
+
+/* Responsive }*/
+
+@media screen and (max-width : 667px) {
+  .container-fluid{
+    width: 100%;
+  }
+  .logo{
+    margin: 0 auto;
+  }
+  .huerta2{
+    transition: none;
+    margin-left: 60px;
+  }
+  .huerta2:hover{
+     transform:none;
+  }
+  .img{
+    width:100%;
+  }
+  .btn{
+    margin-bottom: 40px;
+  }
+  .nav-tabs, .pre-foot, .mapa{
+    visibility: hidden;
+    display: none;
+  }
+  .medio{
+    padding:0px 30px;
+  }
+  
+  .col-md-4, .col-md-12, .col-md-5, .col-md-3{
+    width: 100%;
+  } 
+}
+
+@media (min-width: 668px) and  (max-width: 1024px) {
+  .container-fluid{
+    width: 100%;
+  }
+  .img{
+    width:100%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1600px){
+  .container-fluid{
+    width: 100%;
+  }
+}
+
