@@ -12,23 +12,15 @@ img {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));
-}
-img:hover {
-    opacity: 1;
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
-    -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
-    -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
-    box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), 
+    color-stop(.7, transparent), to(rgba(0,0,0,0.1)));
 }
 p{
 	padding: 15px;
 	font-size: 16px;
 }
 /*HEADER*/
-.logo{
-	margin-left: 30px;
-}
+
 .glyphicon{
 	font-size: 20px;
 	margin-left: 15px;
@@ -63,13 +55,6 @@ p{
 h3{
 	font-style: italic;
 	padding: 10px;
-}
-img:hover{
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -o-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1.2)
 }
 /*WATCH*/
 .watch{
@@ -143,19 +128,18 @@ img:hover{
 .texto1{
   margin-left: 25px;
   } 
-.texto1:hover{
-  background-color:#53a7ea;
-  width: 60%;
-}
 .direcc{
   padding: 20px 50px;
 }
-.ion {
-  font-size: 30px;
-  padding: 10px;
+.medio .fa{
+  text-align:center;
+  font-size: 50px;
   color: blue;
+  margin: 30px 0px 70px 40px;
 }
-
+.medio ul{
+  list-style: none;
+}
 
 
 /* Responsive }*/
@@ -175,7 +159,7 @@ img:hover{
      transform:none;
   }
   .img{
-    width:100%;
+    width:90%;
   }
   .btn{
     margin-bottom: 40px;
@@ -190,7 +174,10 @@ img:hover{
   
   .col-md-4, .col-md-12, .col-md-5, .col-md-3{
     width: 100%;
-  } 
+  }
+  .contacto, .medio{
+    margin-left: 30px;
+  }
 }
 
 @media (min-width: 668px) and  (max-width: 1024px) {
